@@ -28,6 +28,6 @@ ADD src/cmd.sh /cmd.sh
 RUN chmod +x /cmd.sh
 
 EXPOSE 80
-VOLUME /opt/aipo/backup
+VOLUME /opt/aipo/backup_host
 WORKDIR /opt/aipo
 CMD /cmd.sh
