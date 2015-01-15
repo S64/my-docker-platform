@@ -17,7 +17,7 @@ if [ -z ${DNSMASQ_CONFIG_DIR} ]; then
   DNSMASQ_CONFIG_DIR=$CURRENT"/_dnsmasq/example_dnsmasq.d"
 fi
 
-if[ -z ${AIPO_BACKUP_DIR} ]; then
+if [ -z ${AIPO_BACKUP_DIR} ]; then
   AIPO_BACKUP_DIR="/var/tmp/aipo/backup"
 fi
 
