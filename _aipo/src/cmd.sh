@@ -6,7 +6,7 @@ pushd ./bin
 ./backup_handler.sh
 popd
 
-rsync -av ./backup ./backup_host
+#rsync -av ./backup ./backup_host
 
 popd
 
