@@ -35,5 +35,10 @@ IMAGES_FOR_BUILD = [
       'shipyard',
       '--restart=always -it --link shipyard-rethinkdb:rethinkdb'
     )
+  ),
+  $iinfo.new(
+    's6464/my-docker-platform_aipo',
+    './containers/_aipo',
+    nil
   )
 ]
