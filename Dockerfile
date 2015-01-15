@@ -39,6 +39,7 @@ ENV DOCKER_TLS_VERIFY 0
 ENV DOCKER_HOST_CERT_PATH /opt/from_dockerfile/certs
 ENV DOCKER_HOST_NGINX_CONF /etc/nginx/conf.d
 ENV DNSMASQ_CONFIG_DIR /etc/dnsmasq.d
+ENV AIPO_BACKUP_DIR /var/tmp/aipo/backup
 
 ADD _nginx /opt/from_dockerfile/containers/_nginx
 ADD _dnsmasq /opt/from_dockerfile/containers/_dnsmasq
