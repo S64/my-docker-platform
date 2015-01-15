@@ -43,6 +43,7 @@ ENV AIPO_BACKUP_DIR /var/tmp/aipo/backup
 
 ADD _nginx /opt/from_dockerfile/containers/_nginx
 ADD _dnsmasq /opt/from_dockerfile/containers/_dnsmasq
+ADD _aipo /opt/from_dockerfile/containers/_aipo
 
 VOLUME ["/opt/from_dockerfile/certs", "/opt/from_dockerfile/nginx_conf.d"]
 CMD /bin/bash -l -c "ruby ~/docker/cmd.rb"
