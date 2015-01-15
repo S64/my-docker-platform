@@ -27,6 +27,8 @@ RUN rm -rf ~/tmp/aipo01
 ADD src/cmd.sh /cmd.sh
 RUN chmod +x /cmd.sh
 
+RUN yum install -y rsync
+
 EXPOSE 80
 VOLUME /opt/aipo/backup_host
 WORKDIR /opt/aipo
