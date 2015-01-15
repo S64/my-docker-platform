@@ -30,6 +30,5 @@ RUN chmod +x /cmd.sh
 RUN yum install -y rsync
 
 EXPOSE 80
-VOLUME /opt/aipo/backup_host
 WORKDIR /opt/aipo
 CMD /cmd.sh
