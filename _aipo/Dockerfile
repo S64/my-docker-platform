@@ -28,6 +28,7 @@ ADD src/cmd.sh /cmd.sh
 RUN chmod +x /cmd.sh
 
 RUN yum install -y rsync
+RUN yum install -y openssh-clients
 
 EXPOSE 80
 WORKDIR /opt/aipo
